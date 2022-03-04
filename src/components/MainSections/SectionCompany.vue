@@ -59,19 +59,7 @@ export default {
             clear: both;
         }
 
-        h5 {
-            color: #048383;
-        }
-
-        h2 {
-            margin: 15px 0;
-            font-size: 50px;
-        }
-
-        p {
-            margin-bottom: 15px;
-            font-size: 16px;
-        }
+        
 
         .sect-left, .sect-right {
             float: left;

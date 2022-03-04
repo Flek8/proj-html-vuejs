@@ -33,4 +33,7 @@ export default {
     background-color: #729fa13a;
     border-radius: 3px;
   }
+  i {
+      color: #048383;
+  }
 </style>

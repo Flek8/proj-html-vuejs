@@ -1,15 +1,15 @@
 <template>
-    <footer>
+    <section>
         
-    </footer>
+    </section>
 </template>
 
 <script>
 export default {
-    name: 'MyFooter'
+    name: 'SectionTeam'
 }
 </script>
 
-<style scoped lang='scss'>
+<style scoped lang="scss">
 
 </style>

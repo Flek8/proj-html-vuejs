@@ -5,6 +5,7 @@
         <SectionManagement/>
         <SectionTeam/>
         <SectionNews/>
+        <NewsLetter/>
     </main>
 </template>
 
@@ -13,7 +14,8 @@ import SectionCompany from './MainSections/SectionCompany.vue';
 import SectionServices from './MainSections/SectionServices.vue';
 import SectionManagement from './MainSections/SectionManagement.vue';
 import SectionTeam from './MainSections/SectionTeam.vue';
-import SectionNews from './MainSections/SectionNews.vue'
+import SectionNews from './MainSections/SectionNews.vue';
+import NewsLetter from './MainSections/NewsLetter.vue';
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
         SectionServices,
         SectionManagement,
         SectionTeam,
-        SectionNews
+        SectionNews,
+        NewsLetter
     }
 }
 </script>

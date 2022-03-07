@@ -3,7 +3,7 @@
         <div class="container">
             <div class="left">
                 <h5>WE LIKE WHAT WE DO</h5>
-                <h2><span class="boxed-text">Team</span> of Experts</h2>
+                <h2><span class="boxed-text-dark">Team</span> of Experts</h2>
                 <p>Ethics and integrity are the bases on which our professionals build their careers. They are fundamentals that become daily attitudes.</p>
                 <div class="staff">
                     <MyCard v-for="(el,index) in staff" :key="index"

@@ -7,7 +7,7 @@
         </div>
 
         <div class="title">
-            <i v-if="icon" :class="'fa-solid ' + icon"></i><h3>{{title}}</h3>
+            <span><i v-if="icon" :class="'fa-solid ' + icon"></i></span> <h3>{{title}}</h3>
         </div>
 
         <div class="text">
@@ -46,8 +46,7 @@ export default {
         display: inline-block;
     }
 
-    i {
+    .title span {
         color: #048383;
-        margin-right: 3px;
     }
 </style>

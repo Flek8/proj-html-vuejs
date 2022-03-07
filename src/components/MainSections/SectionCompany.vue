@@ -2,7 +2,7 @@
     <section>
         <div class="sect-left">
             <h5>ABOUT THE NETWORK</h5>
-            <h2><span class="boxed-text">The</span> Company</h2>
+            <h2><span class="boxed-text-dark">The</span> Company</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras iaculis diam varius diam ultricies lacinia. Mauris lacus tellus, ultrices eu voluptat sit amet, finibus a ipsum.</p>
             <p>Curabitur convallis, diam a egestas iaculis, neque lorem interdum felis, in viverra lacus tortor in leo.</p>
         </div>

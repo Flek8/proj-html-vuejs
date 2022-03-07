@@ -2,23 +2,22 @@
     <header>
         <div class="header-top">
             <div>
-                <span>Open Hours:Mon - Sat - 9.00 - 18.00</span>
+                <span><i class="fa-solid fa-clock"></i> Open Hours:Mon - Sat - 9.00 - 18.00</span>
             </div>
             <div>
-                <a href="#"><span>+1(305)1234-5678</span></a>
-                <a href="#"><span>hello@example.com</span></a>
+                <a href="#"><span><i class="fa-solid fa-phone"></i> +1(305)1234-5678</span></a>
+                <a href="#"><span><i class="fa-solid fa-envelope"></i> hello@example.com</span></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
         <div class="header-bottom">
             <nav>
                 <img src="../assets/img/nexgen-logo.svg" alt=" logo nexgen" height="40">
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">PROCESS</a></li>
-                    <li><a href="#">TEAM</a></li>
-                    <li><a href="#">BLOG</a></li>
+                    <li v-for="(el,index) in menuList" :key="index"><a href="#">{{el}}</a></li>
+                    
                     <li><a href="#"><MyButton :msg="'GET IN TOUCH'" /> </a></li>
                 </ul>
             </nav>
@@ -47,6 +46,11 @@ export default {
     name: 'MyHeader',
     components: {
         MyButton
+    },
+    props: {
+        menuList: {
+            Array
+        }
     }
 }
 </script>
@@ -56,9 +60,9 @@ export default {
         .header-top {
             display: flex;
             justify-content: space-between;
-            background-color: #3d4955;
+            background-color: #2f4f55;
             padding: 10px 16%;
-            color: white;
+            color: gray;
 
             
         }

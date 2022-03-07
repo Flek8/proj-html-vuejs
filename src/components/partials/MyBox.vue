@@ -3,7 +3,7 @@
 
         <div class="icons">
             <i id="icon-big" :class="'fa-solid ' + iconTop"></i>
-            <i :class="'fa-solid ' + iconArrow"></i>
+            <i class="arrow" :class="'fa-solid ' + iconArrow"></i>
         </div>
 
         <div class="title">
@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
     #icon-big {
         font-size: 20px;
     }

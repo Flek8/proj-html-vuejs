@@ -24,6 +24,8 @@ export default {
 
         &:hover {
             cursor: pointer;
+            background-color: white;
+            color: #048383;
         }
     }
 </style>

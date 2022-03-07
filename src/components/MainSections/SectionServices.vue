@@ -42,7 +42,7 @@ export default {
                     words: 'Financial Advisory'
                 },
                 {
-                    iconTop: 'fa-chart-simple',
+                    iconTop: 'fa-chart-column',
                     words: 'Analytics and M&A'
                 },
                 {
@@ -50,7 +50,7 @@ export default {
                     words: 'Middle Marketing'
                 },
                 {
-                    iconTop: 'fa-globe-stand',
+                    iconTop: 'fa-globe',
                     words: 'Legal Consulting'
                 },
                 {
@@ -96,6 +96,7 @@ export default {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                padding: 20px 0;
 
                 .box {
                     width: calc((100% - 40px) / 3);

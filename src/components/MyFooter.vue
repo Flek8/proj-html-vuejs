@@ -77,6 +77,10 @@ export default {
                     .btn-black {
                         background-color: #0c0f0f;
                         margin-top: 10px;
+
+                        &:hover {
+                            background-color: white;
+                        }
                     }
                 }
             }

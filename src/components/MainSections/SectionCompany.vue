@@ -78,7 +78,6 @@ export default {
 
             .box {
                 width: 50%;
-                margin-top: 32px;
             }
         }
     }

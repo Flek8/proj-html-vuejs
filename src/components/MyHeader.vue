@@ -95,6 +95,11 @@ export default {
             background-color: white;
             color: #048383;
             margin-left: 10px;
+
+            &:hover {
+                background-color: #048383;
+                color: white;
+            }
         }
 
         a {

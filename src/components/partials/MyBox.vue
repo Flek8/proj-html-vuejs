@@ -39,6 +39,7 @@ export default {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        color: #048383;
     }
 
     h3 {

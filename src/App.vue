@@ -29,7 +29,7 @@ export default {
     box-sizing: border-box;
   }
   .boxed-text {
-    padding: 5px;
+    padding: 5px 7px;
     background-color: #729fa13a;
     border-radius: 3px;
   }

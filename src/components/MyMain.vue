@@ -2,18 +2,25 @@
     <main>
         <SectionCompany/>
         <SectionServices/>
+        <SectionManagement/>
+        <SectionTeam/>
     </main>
 </template>
 
 <script>
 import SectionCompany from './MainSections/SectionCompany.vue';
-import SectionServices from './MainSections/SectionServices.vue'
+import SectionServices from './MainSections/SectionServices.vue';
+import SectionManagement from './MainSections/SectionManagement.vue';
+import SectionTeam from './MainSections/SectionTeam.vue';
+
 
 export default {
     name: 'MyMain',
     components: {
         SectionCompany,
-        SectionServices
+        SectionServices,
+        SectionManagement,
+        SectionTeam
     }
 }
 </script>
@@ -35,5 +42,6 @@ export default {
     p {
         margin-bottom: 15px;
         font-size: 16px;
+        color: grey;
     }
 </style>
